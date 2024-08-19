@@ -16,23 +16,23 @@ def rock_paper_scissors_lizard_Spock_MERT_PALAOGLU():
 
     time.sleep(2) #Little delay for beginning:
     print("**************************************************************************************")
-    print('Hello my dear rival, Welcome to the game!')
-    print("You know it's so boring to play regular rock paper scissors for great minds like Us.")
-    print('So I have made the game little bit more complicated. ENJOY!')
+    print('Hello my dear rival, welcome to the game!')
+    print("You know It's so boring to play regular rock paper scissors for great minds like Us.")
+    print('So I have made the game little bit more complicated for Us. ENJOY!')
     print("--------------------------------------------------------------------------------------")
     time.sleep(2)
     print('Rules:')
-    print('There are 5 characters that a player can choose, each Character has win and lose chance to other Characters. So if I choose the Character that beats yours,')
-    print('I win. So chose wisely. We will play until one of us has 2 wins.')
+    print('There are 5 characters that a player can choose, each character has win and lose chance to other characters. So if I choose the character that beats yours,')
+    print('I win. So choose wisely. We will play until one of us has 2 wins.')
     print("You can always type 'Exit' to leave the game.")
     print("--------------------------------------------------------------------------------------")
     time.sleep(2)
     print('Characters:')
-    print('Scissors: cuts Paper, decapitates Lizard, but is smashed by Spock and crushed by Rock.')
-    print('Paper: covers Rock, disproves Spock, but is cut by Scissors and eaten by Lizard.')
-    print('Rock: crushes Scissors and Lizard, but is covered by Paper and vaporized by Spock.')
-    print('Lizard: poisons Spock, eats Paper, but is crushed by Rock and decapitated by Scissors.')
-    print('Spock: smashes Scissors, vaporizes Rock, but is poisoned by Lizard and disproved by Paper.')
+    print('Scissors: Cuts Paper, decapitates Lizard, but is smashed by Spock and crushed by Rock.')
+    print('Paper: Covers Rock, disproves Spock, but is cut by Scissors and eaten by Lizard.')
+    print('Rock: Crushes Scissors and Lizard, but is covered by Paper and vaporized by Spock.')
+    print('Lizard: Poisons Spock, eats Paper, but is crushed by Rock and decapitated by Scissors.')
+    print('Spock: Smashes Scissors, vaporizes Rock, but is poisoned by Lizard and disproved by Paper.')
     print("--------------------------------------------------------------------------------------")
     time.sleep(2)
    
@@ -49,8 +49,9 @@ def rock_paper_scissors_lizard_Spock_MERT_PALAOGLU():
             print('Round:',roundsPlayed+1)
 
             #valid input test and exit komutları
+
             while True:
-                choice=input('Chose your Character(rock, paper, scissors, lizard, spock):').lower()
+                choice=input('Choose your Character(rock, paper, scissors, lizard, spock):').lower()
                 if choice in moves:
                     break
                 elif (choice.lower()=='exit' and roundsPlayed==0): 
